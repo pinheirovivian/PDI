@@ -1,2 +1,2 @@
 # PDI
-Projeto de um Plano de Desenvolvimento Individual 
+Projeto de um Plano de Desenvolvimento Individual.
