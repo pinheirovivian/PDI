@@ -211,6 +211,11 @@ body.collapsed .sidebar-links li {
   transition: background-color 0.2s ease-in-out;
 }
 
+.sidebar-links .informacoes-medicas a, .sidebar-links .informacoes-medicas svg { 
+  color:#0149E2;
+  stroke: #0149E2;
+}
+
 .sidebar-links li a .link {
   flex-grow: 1;
   overflow: hidden;
@@ -236,6 +241,7 @@ body.collapsed .sidebar-links li {
 .sidebar-links .active svg {
   stroke: var(--text-link);
 }
+
 
 
 /* ?tooltip */

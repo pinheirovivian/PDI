@@ -211,6 +211,12 @@ body.collapsed .sidebar-links li {
   transition: background-color 0.2s ease-in-out;
 }
 
+.sidebar-links .informações-escolares a, .sidebar-links .informações-escolares a svg { 
+  color:#0149E2;
+  stroke: #0149E2;
+}
+
+
 .sidebar-links li a .link {
   flex-grow: 1;
   overflow: hidden;
