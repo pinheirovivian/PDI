@@ -388,6 +388,76 @@ main {
   width: 100%; /* Ocupa 100% da largura da tela */
 }
 
+/*Botao pesquisar*/
+.buscar-box{
+  
+  margin-left: 1210px;
+  margin-top: -60px;
+  width: 80px;
+  height: 80px;  
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  transition: .5s;
+}
+
+.buscar-box.ativar{
+  width: 250px;
+}
+
+.buscar-box .lupa-buscar, .buscar-box .btn-fechar{
+  min-width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.buscar-box .btn-fechar i{
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.buscar-box .input-buscar{
+  position: absolute;
+  left: 70px;
+  width: calc(100% - 120px);
+  height: 100%;
+  line-height: 80px;
+}
+
+.buscar-box .input-buscar input{  
+  background-color:transparent;
+  border: 0;
+  outline: 0;
+  font-size: 14px;
+  width: 130px;
+  
+}
+
+/*A figura ao lado direito do botao pesquisar*/
+.figurahome {
+  display: flex;
+  margin-top: -850px;
+  margin-left: 350px;
+}
+
+.figurahome h5 {
+  position: relative;
+  left: 10px;
+  top: 15px
+}
+
+.figurahome .iconsino {
+  position: relative;
+  left: 25px;
+  top: 15px;
+}
+
+
 /*Quadrado feito para servir como sombra*/
 .quadrado {  
     width: 70rem; /* Largura do quadrado */
@@ -401,7 +471,7 @@ main {
 
 .quadrado2 {
   width: 70rem; /* Largura do quadrado */
-  height: 19rem; /* Altura do quadrado */
+  height: 25rem; /* Altura do quadrado */
   background-color: #E9EAEC; /* Cor de fundo do quadrado */    
   margin-top: -370px; /*Posicionar o quadrado para cima*/
   margin-left: -415px; /*Posicionar o quadrado para esquerda*/
@@ -409,15 +479,7 @@ main {
   z-index: -1; /*Isso foi para garantir que o quadrado ficasse por tras dos elementos*/
 }
 
-.quadrado3 {
-  width: 70rem; /* Largura do quadrado */
-  height: 19rem; /* Altura do quadrado */
-  background-color: #E9EAEC; /* Cor de fundo do quadrado */    
-  margin-top: -50px; /*Posicionar o quadrado para cima*/
-  margin-left: -415px; /*Posicionar o quadrado para esquerda*/
-  position: absolute; /*Posicionar o quadrado em relação ao elemento pai mais próximo */
-  z-index: -1; /*Isso foi para garantir que o quadrado ficasse por tras dos elementos*/
-}
+
 
 
 h2 {
@@ -557,22 +619,3 @@ input {
   white-space: nowrap; /*Para evitar quebra de linha*/
 }
 
-.frase2 {
-  color: #000000; /*Cor das letras*/
-  font-size: 14px; /*Tamanho das letras*/
-  position: relative; /*Foi criado para poder ajustar a sua posição no layout*/
-  top: 120px; /* Ajusta a posição do h2 para cima */
-  left: -405px; /* Ajusta a posição do h2 para a esquerda */
-  white-space: nowrap; /*Para evitar quebra de linha*/
-  margin: 0;
-  text-align: left; /* Garante alinhamento à esquerda */  
-}
-
-.texto3 {
-  color: #232e5b; /*Cor das letras*/
-  font-size: 18px; /*Tamanho das letras*/
-  position: relative; /*Foi criado para poder ajustar a sua posição no layout*/
-  top: 120px; /* Ajusta a posição do h2 para cima */
-  left: -530px; /* Ajusta a posição do h2 para a esquerda */
-  
-}

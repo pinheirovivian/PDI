@@ -388,6 +388,7 @@ main {
   width: 100%; /* Ocupa 100% da largura da tela */
 }
 
+/*Botao pesquisar*/
 .buscar-box{
   
   margin-left: 850px;
@@ -430,13 +431,14 @@ main {
 }
 
 .buscar-box .input-buscar input{  
+  background-color: transparent;
   border: 0;
   outline: 0;
   font-size: 14px;
   width: 135px;
   
 }
-
+/*A figura ao lado direito do botao pesquisar*/
 .figurahome {
   display: flex;
   margin-top: -780px;
