@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700;800&family=Work+Sans:wght@900&display=swap');
+
+body {
+    background-image:url(1.jpeg); /*Colocando a imagem como fundo*/
+    background-repeat: no-repeat; /*Para a imagem não repetir*/
+    background-size: 100%; /*para ocupado 100% da pagina*/
+}
+
+main {
+    background-color: white; /*Colocar cor de fundo na main*/
+    border-radius: 20px; /*Curvas nas bordas da main*/
+    padding: 2rem; /*Afastamento das bordas da main*/
+    width: 500px; /*largura da main*/
+    height: 600px; /*Altura da main*/
+    margin-top: 200px; /*Deslocamento da main para baixo*/
+    margin-left: 200px; /*Deslocamento da main para direita*/
+    font-family: 'Source Code Pro', monospace;
+    
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 800;
+    font-size: 50px;
+    margin-top: -10px;
+
+}
+
+span.label {
+    font-family: serif;
+    font-weight: normal;
+  }
+  span.icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 42px;
+    
+  }
+  span.buttonText {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 42px;
+    padding-right: 42px;
+    font-size: 14px;        
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+
+  }
+  .icon {
+    margin-top: 10px;
+    margin-left: 50px; 
+    cursor: pointer;  
+
+  }
+
+  .quadrado {
+    width: 350px;
+    height: 50px;    
+    margin-left: 45px; /*Deslocamento da main para direita*/
+    border-top: 1px solid rgb(42, 40, 40);
+    border-right: 1px solid rgb(42, 40, 40);
+    border-left:  1px solid rgb(42, 40, 40);
+  }
+
+p {
+    text-align:center;
+    font-size: 14px;        
+    font-family: 'Source Code Pro', monospace;
+}
+
+label{
+    font-size: 14px;
+    font-weight: 600;
+}  
+
+.input1 {
+    background-color: rgb(246, 233, 233);
+    margin-left: 40px;
+    width: 400px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    padding: 5px;
+    margin-top: 10px; /*Espaçamento entre o label e o input*/
+    
+}
+
+legend {
+    padding-left: 60px; /*Descolocar para direita*/ 
+    padding-top: 30px; /*Apenas o email e a data*/  
+    
+}
+
+.input3 {
+    margin-top: 15px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+button {
+    background-color: red;
+    color: white;
+    margin-left: 40px;
+    width: 410px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    padding: 5px;
+    margin-top: 10px; /*Espaçamento entre o label e o input*/
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+.acesso {
+    padding-top: 20px;
+}
+ 
